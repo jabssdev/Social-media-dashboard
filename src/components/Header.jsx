@@ -6,7 +6,11 @@ export const Header = () => {
 			<hr className="my-5 border-lt-dark-grayish-blue" />
 			<div className="flex justify-between">
 				<p className="text-sm font-bold text-lt-dark-grayish-blue">Dark Mode</p>
-				<input type="checkbox" name="" id="" />
+				<label className="border bg-dt-toogle w-11 h-6 rounded-full overflow-hidden cursor-pointer p-[3px] relative" htmlFor="toogle-theme">
+					<input className="peer sr-only" type="checkbox" id="toogle-theme" />
+					<div className="w-full h-full peer-checked:bg-toogle absolute top-0 left-0"></div>
+					<div className="w-4 h-4 bg-white rounded-full peer-checked:translate-x-5 transition-all"></div>
+				</label>
 			</div>
 		</header>
 	);
