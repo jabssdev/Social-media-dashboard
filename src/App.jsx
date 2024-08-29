@@ -9,7 +9,6 @@ export const App = () => {
 		<>
 			<Header />
 			<OverviewContainer data={data} />
-			<h2 className="w-80 mx-auto mb-7 font-bold text-[1.57rem] text-ct-dark-grayish-blue dark:text-white">Overview - Today</h2>
 			<OverviewTodayContainer data={data} />
 		</>
 	);
