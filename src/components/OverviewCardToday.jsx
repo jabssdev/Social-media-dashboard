@@ -10,7 +10,7 @@ export const OverviewCardToday = ({ socialNetwork, typeAudience, amountAudience,
 	const { icon } = useSocialMediaStyles(socialNetwork);
 
 	return (
-		<article className="bg-ct-light-grayish-blue w-full mb-4 pt-7 pb-4 px-7 rounded-[5px] dark:bg-ct-dark-desaturated-blue hover:brightness-95 cursor-pointer transition-all dark:hover:brightness-125">
+		<article className="bg-ct-light-grayish-blue w-80 pt-7 pb-4 px-7 rounded-[5px] dark:bg-ct-dark-desaturated-blue hover:brightness-95 cursor-pointer transition-all dark:hover:brightness-125">
 			<div className="flex items-center justify-between mb-5">
 				<p className="font-bold text-sm text-ct-dark-grayish-blue dark:text-ct-desaturated-blue">{typeAudience}</p>
 				<img src={icon} alt={`${socialNetwork} Icon`} />

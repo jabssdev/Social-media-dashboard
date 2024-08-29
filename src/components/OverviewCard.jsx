@@ -12,7 +12,7 @@ export const OverviewCard = ({ socialNetwork, user, typeAudience, amountAudience
 	return (
 		<article
 			className={
-				"bg-ct-light-grayish-blue w-full h-56 mb-6 rounded-[5px] overflow-hidden text-center dark:bg-ct-dark-desaturated-blue hover:brightness-95 cursor-pointer transition-all dark:hover:brightness-125"
+				"bg-ct-light-grayish-blue h-56 w-80 rounded-[5px] overflow-hidden text-center dark:bg-ct-dark-desaturated-blue hover:brightness-95 cursor-pointer transition-all dark:hover:brightness-125"
 			}
 		>
 			<div className={`${borderBackground} h-[0.28rem] mb-7`}></div>

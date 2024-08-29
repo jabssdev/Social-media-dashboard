@@ -6,10 +6,10 @@ import { OverviewTodayContainer } from "./components/OverviewTodayContainer";
 
 export const App = () => {
 	return (
-		<>
+		<section className="max-w-[1440px] mx-auto">
 			<Header />
 			<OverviewContainer data={data} />
 			<OverviewTodayContainer data={data} />
-		</>
+		</section>
 	);
 };

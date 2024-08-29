@@ -5,7 +5,7 @@ export const OverviewContainer = ({ data }) => {
 	const { overview } = data;
 
 	return (
-		<section className="w-80 absolute top-48 left-0 right-0 mx-auto">
+		<section className="max-w-[1440px] absolute top-48 left-0 right-0 mx-auto flex flex-wrap gap-7 justify-center">
 			{overview.map((item) => {
 				return <OverviewCard key={item.id} {...item} />;
 			})}
