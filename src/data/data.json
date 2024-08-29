@@ -5,8 +5,8 @@
 			"socialNetwork": "facebook",
 			"user": "@nathanf",
 			"typeAudience": "followers",
-			"amountAudience": "1987",
-			"todayAudience": "12",
+			"amountAudience": 1987,
+			"todayAudience": 12,
 			"goUp": true
 		},
 		{
@@ -14,8 +14,8 @@
 			"socialNetwork": "twitter",
 			"user": "@nathanf",
 			"typeAudience": "followers",
-			"amountAudience": "1044",
-			"todayAudience": "99",
+			"amountAudience": 1044,
+			"todayAudience": 99,
 			"goUp": true
 		},
 		{
@@ -23,8 +23,8 @@
 			"socialNetwork": "instagram",
 			"user": "@realnathanf",
 			"typeAudience": "followers",
-			"amountAudience": "11k",
-			"todayAudience": "1099",
+			"amountAudience": 11000,
+			"todayAudience": 1099,
 			"goUp": true
 		},
 		{
@@ -32,8 +32,8 @@
 			"socialNetwork": "youtube",
 			"user": "Nathan F.",
 			"typeAudience": "subscribers",
-			"amountAudience": "8239",
-			"todayAudience": "144",
+			"amountAudience": 8239,
+			"todayAudience": 144,
 			"goUp": false
 		}
 	]
