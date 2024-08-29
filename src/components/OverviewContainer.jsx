@@ -1,14 +1,18 @@
-import data from "../data/data.json";
+import PropTypes from "prop-types";
 import { OverviewCard } from "./OverviewCard";
 
-const { overview, overviewToday } = data;
+export const OverviewContainer = ({ data }) => {
+	const { overview } = data;
 
-export const OverviewContainer = () => {
 	return (
-		<section className=" w-80 absolute top-48 left-0 right-0 mx-auto">
+		<section className="w-80 absolute top-48 left-0 right-0 mx-auto">
 			{overview.map((item) => {
 				return <OverviewCard key={item.id} {...item} />;
 			})}
 		</section>
 	);
+};
+
+OverviewContainer.propTypes = {
+	data: PropTypes.object.isRequired,
 };
