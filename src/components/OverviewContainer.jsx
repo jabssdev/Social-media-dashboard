@@ -1,7 +1,7 @@
 import data from "../data/data.json";
 import { OverviewCard } from "./OverviewCard";
 
-const { overview } = data;
+const { overview, overviewToday } = data;
 
 export const OverviewContainer = () => {
 	return (

@@ -36,5 +36,71 @@
 			"todayAudience": 144,
 			"goUp": false
 		}
+	],
+	"overviewToday": [
+		{
+			"id": "ot-001",
+			"socialNetwork": "facebook",
+			"typeAudience": "Page Views",
+			"amountAudience": 87,
+			"todayAudience": 3,
+			"goUp": true
+		},
+		{
+			"id": "ot-002",
+			"socialNetwork": "facebook",
+			"typeAudience": "Likes",
+			"amountAudience": 52,
+			"todayAudience": 2,
+			"goUp": false
+		},
+		{
+			"id": "ot-003",
+			"socialNetwork": "instagram",
+			"typeAudience": "Likes",
+			"amountAudience": 5462,
+			"todayAudience": 2257,
+			"goUp": true
+		},
+		{
+			"id": "ot-004",
+			"socialNetwork": "instagram",
+			"typeAudience": "Profile Views",
+			"amountAudience": 52000,
+			"todayAudience": 1375,
+			"goUp": true
+		},
+		{
+			"id": "ot-005",
+			"socialNetwork": "twitter",
+			"typeAudience": "Retweets",
+			"amountAudience": 117,
+			"todayAudience": 303,
+			"goUp": true
+		},
+		{
+			"id": "ot-006",
+			"socialNetwork": "twitter",
+			"typeAudience": "Likes",
+			"amountAudience": 507,
+			"todayAudience": 553,
+			"goUp": true
+		},
+		{
+			"id": "ot-007",
+			"socialNetwork": "youtube",
+			"typeAudience": "Likes",
+			"amountAudience": 107,
+			"todayAudience": 19,
+			"goUp": false
+		},
+		{
+			"id": "ot-008",
+			"socialNetwork": "youtube",
+			"typeAudience": "Total Views",
+			"amountAudience": 1407,
+			"todayAudience": 12,
+			"goUp": false
+		}
 	]
 }
