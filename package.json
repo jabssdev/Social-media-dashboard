@@ -8,9 +8,12 @@
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-		"build:css": "tailwindcss -i ./src/styles/index.css -o ./src/styles/styles.css --watch"
+		"build:css": "tailwindcss -i ./src/styles/index.css -o ./src/styles/styles.css --watch",
+		"predeploy": "bun run build",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
+		"gh-pages": "^6.1.1",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
 	},
