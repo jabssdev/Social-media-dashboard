@@ -6,7 +6,7 @@ import { OverviewTodayContainer } from "./components/OverviewTodayContainer";
 
 export const App = () => {
 	return (
-		<section className="max-w-[1440px] mx-auto">
+		<section>
 			<Header />
 			<OverviewContainer data={data} />
 			<OverviewTodayContainer data={data} />
