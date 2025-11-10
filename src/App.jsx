@@ -8,8 +8,8 @@ export const App = () => {
 	return (
 		<section>
 			<Header />
-			<OverviewContainer data={data} />
-			<OverviewTodayContainer data={data} />
+			<OverviewContainer data={data.overview} />
+			<OverviewTodayContainer data={data.overviewToday} />
 		</section>
 	);
 };

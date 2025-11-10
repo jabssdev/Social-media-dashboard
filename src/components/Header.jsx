@@ -1,7 +1,7 @@
+import { useTheme } from "../context/ThemeContext";
+
 export const Header = () => {
-	const handleClickTheme = () => {
-		document.documentElement.classList.toggle("dark");
-	};
+	const { isDark, toggleTheme } = useTheme();
 
 	return (
 		<header className=" bg-ct-very-pale-blue dark:bg-ct-dark-blue-top h-60 py-5 px-7 rounded-b-3xl lg:mb-[230px] md:mb-[480px] mb-[970px]">
@@ -12,7 +12,7 @@ export const Header = () => {
 				<div className="flex justify-between">
 					<p className="text-sm font-bold text-ct-dark-grayish-blue dark:text-ct-desaturated-blue">Dark Mode</p>
 					<label className=" bg-ct-toogle w-[46px] h-6 rounded-full overflow-hidden cursor-pointer p-[4px] relative" htmlFor="toogle-theme">
-						<input className="peer sr-only" type="checkbox" id="toogle-theme" onClick={handleClickTheme} />
+						<input className="peer sr-only" type="checkbox" id="toogle-theme" checked={isDark} onChange={toggleTheme} />
 						<div className="w-full h-full peer-checked:bg-toogle-gradient absolute top-0 left-0"></div>
 						<div className="w-4 h-4 bg-white dark:bg-ct-dark-blue-top rounded-full peer-checked:translate-x-[-23px] transition-all absolute right-1"></div>
 					</label>

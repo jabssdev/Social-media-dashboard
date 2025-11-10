@@ -1,3 +1,4 @@
+import { memo } from "react";
 import PropTypes from "prop-types";
 
 import { useSocialMediaStyles } from "../hooks/useSocialMediaStyles";
@@ -6,7 +7,7 @@ import { convertToK } from "../utils/convertToK";
 import upIcon from "../assets/images/icon-up.svg";
 import downIcon from "../assets/images/icon-down.svg";
 
-export const OverviewCard = ({ socialNetwork, user, typeAudience, amountAudience, todayAudience, goUp }) => {
+export const OverviewCard = memo(({ socialNetwork, user, typeAudience, amountAudience, todayAudience, goUp }) => {
 	const { icon, borderBackground } = useSocialMediaStyles(socialNetwork);
 
 	return (
@@ -28,7 +29,9 @@ export const OverviewCard = ({ socialNetwork, user, typeAudience, amountAudience
 			</div>
 		</article>
 	);
-};
+});
+
+OverviewCard.displayName = "OverviewCard";
 
 OverviewCard.propTypes = {
 	socialNetwork: PropTypes.string.isRequired,
